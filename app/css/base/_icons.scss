@@ -1,0 +1,287 @@
+// Icons
+//
+// .icon-hbo_add_active - Active Add Icon
+// .icon-hbo_add - Add Icon
+// .icon-hbo_back10secs - Go back 10seconds
+// .icon-hbo_backtobeginning - Go back the begin
+// .icon-hbo_back - Go back
+// .icon-hbo_check_active - Checkmark active
+// .icon-hbo_check - Checkmark
+// .icon-hbo_clear_active - Active Clear icon
+// .icon-hbo_clear - Clear icon
+// .icon-hbo_close - Close icon
+// .icon-hbo_details_active - Details icon
+// .icon-hbo_details - Details icon
+// .icon-hbo_dropdown - Dropdown icon
+// .icon-hbo_edit_active - Active Edit icon
+// .icon-hbo_edit - Edit icon
+// .icon-hbo_forward - Forward icon
+// .icon-hbo_fullscreen - Fullscreen icon
+// .icon-hbo_letterbox - Letterbox icon
+// .icon-hbo_lock_active - Active Lock icon
+// .icon-hbo_lock - Lock icon
+// .icon-hbo_menu - Menu icon
+// .icon-hbo_myhbo_active - Active Myhbo icon
+// .icon-hbo_myhbo - Myhbo icon
+// .icon-hbo_pause - Pause icon
+// .icon-hbo_playbig_active - Active Big Play icon
+// .icon-hbo_playbig - Big Play icon
+// .icon-hbo_playplayer - Play icon
+// .icon-hbo_play_active - Active Play icon
+// .icon-hbo_play - Play icon
+// .icon-hbo_preview_active - Active Preview icon
+// .icon-hbo_preview - Preview icon
+// .icon-hbo_rate_active - Active Rate icon
+// .icon-hbo_rate - Rate icon
+// .icon-hbo_remove_active - Active Remove icon
+// .icon-hbo_remove - Remove icon
+// .icon-hbo_search - Search icon
+// .icon-hbo_settings_active - Active Settings icon
+// .icon-hbo_settings - Settings icon
+// .icon-hbo_share_active - Active Share icon
+// .icon-hbo_share_iOS_active - Active iOS Share icon
+// .icon-hbo_share_iOS - iOS Share icon
+// .icon-hbo_share - Share icon
+// .icon-hbo_skipforward - Skip Forward icon
+// .icon-hbo_unchecked - Unchecked icon
+// .icon-hbo_volumecopy - Volume icon
+// .icon-hbo_volumelow - Volume Low icon
+// .icon-hbo_volumemed - Volume Medio icon
+// .icon-hbo_volumemute - Volume Mute icon
+// .icon-hbo_volume - Volume icon
+// .icon-hbo_check_solo - Check icon
+//
+// markup:
+// <span style="font-size: 3em;" class="{$modifiers}"></span>
+//
+// Styleguide 2.2
+
+
+[class^="icon-"],
+[class*=" icon-"] {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "iconmoon";
+
+  /* Enable Ligatures ================ */
+  font-feature-settings: "liga";
+
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}
+
+.icon-hbo_add_active:before  {
+  content: $hbo_add_active;
+}
+
+.icon-hbo_add:before {
+  content: $hbo_add;
+}
+
+.icon-hbo_back10secs:before {
+  content: $hbo_back10secs;
+}
+
+.icon-hbo_backtobeginning:before {
+  content: $hbo_backtobeginning;
+}
+
+.icon-hbo_back:before {
+  content: $hbo_back;
+}
+
+.icon-hbo_check_active:before {
+  content: $hbo_check_active;
+}
+
+.icon-hbo_check:before {
+  content: $hbo_check;
+}
+
+.icon-hbo_clear_active:before {
+  content: $hbo_clear_active;
+}
+
+.icon-hbo_clear:before {
+  content: $hbo_clear;
+}
+
+.icon-hbo_close:before {
+  content: $hbo_close;
+}
+
+.icon-hbo_details_active:before {
+  content: $hbo_details_active;
+}
+
+.icon-hbo_details:before {
+  content: $hbo_details;
+}
+
+.icon-hbo_dropdown:before {
+  content: $hbo_dropdown;
+}
+
+.icon-hbo_edit_active:before {
+  content: $hbo_edit_active;
+}
+
+.icon-hbo_edit:before {
+  content: $hbo_edit;
+}
+
+.icon-hbo_forward:before {
+  content: $hbo_forward;
+}
+
+.icon-hbo_fullscreen:before {
+  content: $hbo_fullscreen;
+}
+
+.icon-hbo_letterbox:before {
+  content: $hbo_letterbox;
+}
+
+.icon-hbo_lock_active:before {
+  content: $hbo_lock_active;
+}
+
+.icon-hbo_lock:before {
+  content: $hbo_lock;
+}
+
+.icon-hbo_menu:before {
+  content: $hbo_menu;
+}
+
+.icon-hbo_myhbo_active:before {
+  content: $hbo_myhbo_active;
+}
+
+.icon-hbo_myhbo:before {
+  content: $hbo_myhbo;
+}
+
+.icon-hbo_pause:before {
+  content: $hbo_pause;
+}
+
+.icon-hbo_playbig_active:before {
+  content: $hbo_playbig_active;
+}
+
+.icon-hbo_playbig:before {
+  content: $hbo_playbig;
+}
+
+.icon-hbo_playplayer:before {
+  content: $hbo_playplayer;
+}
+
+.icon-hbo_play_active:before {
+  content: $hbo_play_active;
+}
+
+.icon-hbo_play:before {
+  content: $hbo_play;
+}
+
+.icon-hbo_preview_active:before {
+  content: $hbo_preview_active;
+}
+
+.icon-hbo_preview:before {
+  content: $hbo_preview;
+}
+
+.icon-hbo_rate_active:before {
+  content: $hbo_rate_active;
+}
+
+.icon-hbo_rate:before {
+  content: $hbo_rate;
+}
+
+.icon-hbo_remove_active:before {
+  content: $hbo_remove_active;
+}
+
+.icon-hbo_remove:before {
+  content: $hbo_remove;
+}
+
+.icon-hbo_search:before {
+  content: $hbo_search;
+}
+
+.icon-hbo_settings_active:before {
+  content: $hbo_settings_active;
+}
+
+.icon-hbo_settings:before {
+  content: $hbo_settings;
+}
+
+.icon-hbo_share_active:before {
+  content: $hbo_share_active;
+}
+
+.icon-hbo_share_iOS_active:before {
+  content: $hbo_share_iOS_active;
+}
+
+.icon-hbo_share_iOS:before {
+  content: $hbo_share_iOS;
+}
+
+.icon-hbo_share:before {
+  content: $hbo_share;
+}
+
+.icon-hbo_skipforward:before {
+  content: $hbo_skipforward;
+}
+
+.icon-hbo_unchecked:before {
+  content: $hbo_unchecked;
+}
+
+.icon-hbo_volumecopy:before {
+  content: $hbo_volumecopy;
+}
+
+.icon-hbo_volumelow:before {
+  content: $hbo_volumelow;
+}
+
+.icon-hbo_volumemed:before {
+  content: $hbo_volumemed;
+}
+
+.icon-hbo_volumemute:before {
+  content: $hbo_volumemute;
+}
+
+.icon-hbo_volume:before {
+  content: $hbo_volume;
+}
+
+.icon-hbo_check_solo:before, .profile__checkbox--checked:before {
+  content: $hbo_check_solo;
+}
+
+.icon-hbo_back-selected:before {
+  content: $hbo_back_previous;
+}
+
+.icon-hbo_back-previous:before {
+  content: $hbo_back_selected;
+}
+
+.icon-hbo_directv:before {
+  content: $hbo_directv;
+}

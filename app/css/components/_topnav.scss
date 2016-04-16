@@ -1,0 +1,97 @@
+.top-nav {
+
+  position: absolute;
+  width: 100%;
+  height: 178px;
+  top:0;
+  left:0;
+  background: rgba(0,0,0,0.8);
+  z-index: 9999;
+
+  &__main {
+    .grid-nav__row {
+      text-align: center;
+    }
+
+    .grid-nav__col {
+
+      &.grid-nav__col--select {
+        color: #03b3ff;
+      }
+
+    }
+
+    .grid-nav__cell {
+      margin: 63px 40px 0;
+      line-height: 1em;
+      font-size: 36px;
+      text-transform: uppercase;
+      font-family: 'HurmeGeometricSans2-SemiBold';
+    }
+
+    .icon-active {
+      display: none;
+    }
+  }
+
+
+
+  &__btn {
+    background: rgba(0,0,0,0.8);
+    width: 276px;
+    height: 102px;
+    position: absolute;
+    top: 178px;
+    left: 50%;
+    margin-left: -138px;
+    border-radius: 0 0 400px 400px;
+
+    &.grid-nav__col--select {
+      background: red;
+    }
+
+      .grid-nav__row {
+
+      }
+
+      .grid-nav__col {
+        width: 276px;
+        height: 102px;
+        position: relative;
+
+        &.grid-nav__col--select {
+          background: #333;
+          border-radius: 0 0 400px 400px;
+        }
+
+        .grid-nav__cell {
+          position: absolute;
+          width: 30px;
+          height: 30px;
+          top: 50%;
+          margin: -15px 0 0 -15px;
+          left: 50%;
+          text-align: center;
+          display: block;
+          font-size: 33px;
+        }
+      }
+
+      &--close {
+        display: none;
+      }
+
+      &--open {
+        display: block;
+      }
+  }
+
+  &--close {
+    top: -178px;
+  }
+
+  &--open {
+    top: 0;
+  }
+
+}

@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #111;
+  background-size: cover;
+  color: #fafafa;
+  font-family: "HurmeGeometricSans2-Light", Arial , Helvetica , sans-serif;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+object {
+  visibility: hidden;
+}
+
+iframe {
+  border: 0;
+}
