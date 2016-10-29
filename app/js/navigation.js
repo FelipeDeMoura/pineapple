@@ -30,6 +30,8 @@ hbo.moveArrow = (function(global){
       var lengRow = mainObj.next(currentRow, currentCol).rowleng;
       var lengCol = mainObj.next(currentRow, currentCol).colLeng;
       var hideRow;
+      var url = document.location.href;
+      var navBtn = document.querySelector('toggle');
 
       e.preventDefault();
 
@@ -69,9 +71,18 @@ hbo.moveArrow = (function(global){
           currentCol = (currentCol <= lengCol-1) ? currentCol : 0;
           break;
         case 13:
-          var getUrl = mainObj.next(currentRow, currentCol).url(),
-          redirect = '/blank';
-          //global.location.href = (!getUrl) ? redirect : getUrl;
+          var getUrl = mainObj.next(currentRow, currentCol).currentPos;
+
+          console.log(getUrl);
+
+          if (getUrl.dataset.url) {
+              document.location.href = (getUrl.dataset.url === '/') ? url.slice(0, url.lastIndexOf('/')) : url + getUrl.dataset.url;
+          }
+
+        //   if (getUrl.dataset.toggle) {
+        //       navBtn.style.display = block;
+        //   }
+
           break;
         case 27:
           //global.history.back();
